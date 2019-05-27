@@ -1,0 +1,29 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "A sample REST API using fastify, nodejs, mongodb",
+  "main": "./src index.js",
+  "scripts": {
+    "test": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devesh2605/fastify-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "mongodb"
+  ],
+  "author": "Devesh Vyas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devesh2605/fastify-api/issues"
+  },
+  "homepage": "https://github.com/devesh2605/fastify-api#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.4.1",
+    "mongoose": "^5.5.11"
+  }
+}
