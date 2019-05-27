@@ -4,7 +4,13 @@ const fastify = require('fastify')({
 const mongoose = require('mongoose')
 const routes = require('./routes/book.route');
 const config = require('./conf/config');
-const port = 3000;
+const cors = require('fastify-cors');
+const helmet = require('fastify-helmet')
+
+const port = 3000 || process.env.port;
+
+fastify.register(cors);
+fastify.register(helmet);
 
 mongoose.connect(config.MONGODB_URL, { useNewUrlParser: true })
     .then(() => console.log('MongoDB connected...'))
