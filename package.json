@@ -23,7 +23,7 @@
   "homepage": "https://github.com/devesh2605/fastify-api#readme",
   "dependencies": {
     "boom": "^7.3.0",
-    "fastify": "^2.4.1",
+    "fastify": "^2.15.1",
     "fastify-cors": "^2.1.3",
     "fastify-helmet": "^3.0.0",
     "mongoose": "^5.5.11"
